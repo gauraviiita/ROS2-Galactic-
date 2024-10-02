@@ -20,7 +20,8 @@ ModuleNotFoundError: No module named 'rclpy._rclpy_pybind11'
 The C extension '/opt/ros/galactic/lib/python3.8/site-packages/_rclpy_pybind11.cpython-312-x86_64-linux-gnu.so' isn't present on the system. Please refer to 'https://index.ros.org/doc/ros2/Troubleshooting/Installation-Troubleshooting/#import-failing-without-library-present-on-the-system' for possible solutions
 
 
-A solution in my case:
+**A solution in my case:**
+
 I installed ROS2 Galactic in the Anaconda base environment. The default python version in the base environment was Python3.12, but for ROS2 Galactic, Python3.8 is required; therefore, I installed Python3.8 in the base environment, and this
 problem is now resolved.
 
