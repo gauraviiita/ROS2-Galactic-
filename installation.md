@@ -18,8 +18,9 @@ locale  # verify settings
 
 Step 2: Ensure that the Ubuntu Universe repository is enabled.
 
-sudo apt install software-properties-common
-sudo add-apt-repository universe
+$ sudo apt install software-properties-common
+
+$ sudo add-apt-repository universe
 
 Step
 
